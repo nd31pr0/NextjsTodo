@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TodList() {
+function TodoList() {
   return (
     <div>
       <div className="overflow-x-auto">
@@ -25,4 +25,4 @@ function TodList() {
   )
 }
 
-export default TodList
+export default TodoList
