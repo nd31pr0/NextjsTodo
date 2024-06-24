@@ -13,32 +13,12 @@
       "text": "Help my friend on his thesis"
     },
     {
-      "id": "2",
-      "text": "jaet"
+      "id": "{uuidv4}",
+      "text": "unique id"
     },
     {
-      "id": "2",
+      "id": "bcfecf2b-b324-412c-9e9a-5642b1b58267",
       "text": "new item"
-    },
-    {
-      "id": "2",
-      "text": "jael number"
-    },
-    {
-      "id": "4",
-      "text": "New submission with id"
-    },
-    {
-      "id": "4",
-      "text": "new task"
-    },
-    {
-      "id": "4",
-      "text": "last man!"
-    },
-    {
-      "id": "4",
-      "text": "test refresh"
     }
   ]
 }
