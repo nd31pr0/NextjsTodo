@@ -4,18 +4,22 @@ import {FormEventHandler, useState} from 'react'
 import { AiOutlinePlus } from "react-icons/ai";
 import Modal from './Modal';
 import {addTodo} from "../../api";
+import {useRouter} from "next/navigation"
 
 
 function AddTask() {
+    const router = useRouter()
     const [modalOpen, setModalOpen] = useState<boolean>(false);
     const [newTaskValue, setNewTaskValue] = useState<string>('');
     const handleSubmitNewTodo: FormEventHandler<HTMLFormElement> = async (e) => {
         e.preventDefault();
         await addTodo({
-            id: '3',
+            id: '4',
             text: newTaskValue
         })
         setNewTaskValue("");
+        setModalOpen(false);
+        router.refresh();
     }
   return (
     <div className='flex gap-4'>
@@ -26,7 +30,7 @@ function AddTask() {
 
         <Modal modalOpen={modalOpen} setModalOpen={setModalOpen}>
             <form onSubmit={handleSubmitNewTodo}>
-                <h3 className='font-bold text-lg'>Add new task</h3>
+                <h3 className='font-bold text-lg'>Add New Task!</h3>
                 <div className='modal-action'>
                     <input
                         value={newTaskValue}
