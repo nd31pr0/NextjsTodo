@@ -2,7 +2,7 @@
   "tasks": [
     {
       "id": "1",
-      "text": "Visit my sick friend who had an accident last week"
+      "text": "Visit my sick friend who did not have an accident last week"
     },
     {
       "id": "2",
@@ -18,7 +18,7 @@
     },
     {
       "id": "bcfecf2b-b324-412c-9e9a-5642b1b58267",
-      "text": "new item"
+      "text": "new item 1"
     }
   ]
 }
